@@ -1,10 +1,10 @@
 require('./connection')
-const Date = require('../models/dates')
+const Activity = require('../models/dates')
 const dateSeeds= require('./seeds.json')
 
-Date.deleteMany({})
+Activity.deleteMany({})
 .then(()=>{
-    return Date.insertMany(dateSeeds)
+    return Activity.insertMany(dateSeeds)
 })
 .then((dates)=>{
     console.log(dates)

@@ -6,5 +6,5 @@ const dateSchema = new mongoose.Schema({
     who: String,
     description: String,
 })
-const Date = mongoose.model("Date", dateSchema)
-module.exports= Date
+const Activity = mongoose.model("Activity", dateSchema)
+module.exports= Activity

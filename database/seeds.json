@@ -1,0 +1,70 @@
+
+
+[
+    {
+        "nameOfDate": "Enjoy Dinner at a Fancy Restaurant",
+        "when": "2/13/22",
+        "where": "Amore Amore",
+        "who": "Calvin and Michael",
+        "Description": "Had a nice italian dinner, the restaurant was decorated so pretty for Valentines Day."
+
+    },
+    {
+        "nameOfDate": "Host Dinner for Friends",
+        "when": "2/20/22",
+        "where": "At the Apartment",
+        "who": "Calvin, Michael, KL, LG, Alaina, Rho, and Katarina",
+        "Description": "Cooked French Food and played a murder mystery game."
+    },
+    {
+        "nameOfDate": "Visit an Exhibition",
+        "when": "2/27/22",
+        "where": "National Center for Civil and Human Rights",
+        "who": "Calvin and Michael",
+        "Description": "This was a really cool museum, and also wen to the Coca Cola Museum."
+    },
+    {
+        "nameOfDate": "Visit a Cinema",
+        "when": "2/27/22",
+        "where": "Landmark",
+        "who": "Calvin and Michael",
+        "Description": "We saw Death on the Nile, very predictable movie. Gal Gadot is bad."
+    },
+    {
+        "nameOfDate": "Go Ice Skating",
+        "when": "3/9/22",
+        "where": "Skating Rink in Boston, MA",
+        "who": "Calvin and Michael",
+        "Description": "Spontaneous trip to an Ice Skating Rink."
+    },
+    {
+        "nameOfDate": "Be a Tourist for a Day",
+        "when": "3/9/22",
+        "where": "Boston, MA",
+        "who": "Calvin and Michael",
+        "Description": "Walked around Boston for the day."
+    },
+    {
+        "nameOfDate": "Play at an arcade",
+        "when": "3/20/22",
+        "where": "Dave and Busters",
+        "who": "Calvin and Michael",
+        "Description": "Went to an arcade for Calvin's birthday!"
+    },
+    {
+        "nameOfDate": "Attend a Live Music Event",
+        "when": "5/7/22",
+        "where": "Chastain Park",
+        "who": "Calvin and Michael",
+        "Description": "We saw Rex Orange Coutny."
+    },
+    {
+        "nameOfDate": "Go Fruit Picking",
+        "when": "5/22/22",
+        "where": "Southern Belle Farm",
+        "who": "Calvin, Michael, Biance",
+        "Description": "Went Strawberry picking, and had strawberry ice cream. So good!"
+    }
+
+
+]

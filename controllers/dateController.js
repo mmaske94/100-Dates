@@ -1,9 +1,13 @@
-const dates = require('../models/dates')
+const Activity = require('../models/dates')
 ///
 //Functions
+
 const indexDate = (req, res)=>{
-    dates.find({}, (error, date)=>{
-        res.json(date)
+
+    Activity.find({}, (error, activities)=>{
+        // res.json(activities)
+        
+        res.render("index.ejs", {activities})
     })
 }
 
