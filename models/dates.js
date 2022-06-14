@@ -5,6 +5,10 @@ const dateSchema = new mongoose.Schema({
     where: String,
     who: String,
     description: String,
-})
+    owner:{
+        type: mongoose.Schema.Types.ObjectId, 
+        ref: "User"
+    }
+});
 const Activity = mongoose.model("Activity", dateSchema)
 module.exports= Activity
