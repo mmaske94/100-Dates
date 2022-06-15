@@ -21,7 +21,7 @@ const newDate = (req,res)=>{
 const createDate = (req,res) =>{
 
     Activity.create(req.body, (error)=>{
-        if(error) {11
+        if(error) {
             res.status(400).json(err)
             return
         } 
