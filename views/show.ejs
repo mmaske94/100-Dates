@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Show</title>
+</head>
+<body>
+  <div class="buttonShow">
+  <a href="/dates"><button id="buttonShow">Back</button></a><br>
+  <a href="/dates/<%=activity._id%>/edit"> <button id="buttonShow">Edit Date</button></a>
+     <form  method="POST" action="/dates/<%=activity._id %>?_method=DELETE">
+      <input id="buttonShow" type="submit" value="Delete Date"/>
+    </form>
+  </div>
+    <div class = "imagesShow">
+      <div class = "squareShow"></div>
+      </div>
+    <section id="show-page">
+        <div class = 'showBold'>Name of Date: </div>
+        <div><%= activity.nameOfDate %></div>
+        <div class = 'showBold'>When: </div>
+        <div><%= activity.when %></div>
+        <div class = 'showBold'>Where: </div>
+        <div><%= activity.where %></div>
+        <div class = 'showBold'>Who: </div>
+        <div><%= activity.who %></div>
+        <div class = 'showBold'>Description: </div>
+        <div><%= activity.description %></div>
+    </section>
+    
+
+    
+</body>
+</html>
+

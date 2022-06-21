@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Edit</title>
+</head>
+<body>
+    <a href="/dates"><button id="buttonEdit">Back</button></a><br>
+    <div class = "imagesEdit">
+        <div class = "squareEdit"></div>
+        </div>
+    <form id="edit-form" action="/dates/<%=activity._id %>?_method=PUT" method="POST">
+        <label for="nameOfDate">Name Of Date:</label>
+        <input type="text" name="nameOfDate" id="nameOfDate" value="<%=activity.nameOfDate%>"/><br>
+        <label for="when">When:</label>
+        <input type="text" name="when" id="when" value="<%=activity.when%>"/><br>
+        <label for="where">Where:</label>
+        <input type="text" name="where" id="where" value="<%=activity.where%>"/><br>
+        <label for="who">Who:</label>
+        <input type="text" name="who" id="who" value="<%=activity.who%>"/><br>
+        <label for="description">Decription:</label>
+        <input type="text" name="description" id="description" value="<%=activity.description%>"/><br>
+        <input id="buttonEdit" type="submit" value="Edit Item">
+      </form>
+</body>
+</html>
+
+
+

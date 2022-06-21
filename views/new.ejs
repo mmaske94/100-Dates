@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>New</title>
+</head>
+<body>
+    <a href="/dates"><button id="buttonNew">Back</button></a><br>
+    <form id="new-form" action="/dates" method="POST">
+        <div class = "imagesNew">
+            <div class = "squareNew"></div>
+            </div>
+        <label>Name Of Date:</label>
+        <input type="text" name="nameOfDate"><br>
+        <label>When:</label>
+        <input type="text" name="when"><br>
+        <label>Where:</label>
+        <input type="text" name="where"><br>
+        <label>Who:</label>
+        <input type="text" name="who"><br>
+        <label>Description:</label>
+        <input type="textarea" name="description"><br>
+        <input id="buttonNew" type="submit" value="Add Date">
+      </form>
+
+
+      <!-- IMAGE UPLOAD -->
+  <form method="POST" action="/dates/new" enctype="multipart/form-data">
+    <input type="file" name="image">
+    <input type="submit">
+  </form>
+</body>
+</html>
+
+
+
+
+  

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>User</title>
+</head>
+<body>
+<a href="/dates"><button id="buttonEdit">Dates</button></a>
+  <div class="profile">
+    <div class = "circle"></div>
+  </div>  
+  <%users.forEach(function(user){%>
+    
+    <h3 class="userBold">Name:</h3>
+    <h3 class="users"><%=user.name%></h3>
+    <h3 class="userBold">Pronouns:</h3>
+    <h3 class="users"><%=user.pronouns%></h3>
+    <h3 class="userBold">Email:</h3>
+    <h3 class="users"><%=user.email%></h3>
+    <h3 class="userBold">Partner:</h3>
+    <h3 class="users"><%=user.partner%></h3>
+    <h3 class="userBold">Anniversary:</h3>
+    <h3 class="users"><%=user.anniversary%></h3>
+    
+   
+
+<%}) %>
+</body>
+</html>
+
+

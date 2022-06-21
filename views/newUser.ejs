@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>New User</title>
+</head>
+<body>
+    <a href="/users"><button id="buttonNew">Back</button></a><br>
+    <form id="new-form" action="/users" method="POST">
+    
+        <label>Name:</label>
+        <input type="text" name="name"><br>
+        <label>Pronouns:</label>
+        <input type="text" name="pronouns"><br>
+        <label>Email:</label>
+        <input type="text" name="email"><br>
+        <label>Partner:</label>
+        <input type="text" name="partner"><br>
+        <label>Anniversary:</label>
+        <input type="text" name="anniversary"><br>
+        <input id="buttonNew" type="submit" value="Add User">
+      </form>
